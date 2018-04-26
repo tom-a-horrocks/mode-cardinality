@@ -38,3 +38,10 @@ mode-volume
         --use-gradient "true"
         --gradient-cutoff "0.05" (not required if use-gradient is "false")
 ```
+# Example usage
+This command loads a data file 'data/in.csv', sets the voxel value bandwidth to 0.1, the projected coordinate bandwidth to 0.5, and exports the resulting mode cardinality volume to 'result/mc.csv'. The 'number-of-subdivisions' command refers to how many sample points are used to model the probability density function (by kernel density estimation). The 'use-gradient' command enables the SI-MC operator; otherwise the simpler (and faster) MC operator is used.
+```
+set-option --attribute-bandwidth-selector "0.1" --projection-bandwidth-selector "0.5"
+load --load-path "data/in.csv"
+mode-volume --number-of-subdivisions 20 --use-gradient true --export-path "result/mc.csv"
+```
