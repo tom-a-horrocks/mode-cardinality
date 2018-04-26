@@ -3,7 +3,7 @@ This repository contains the code neccessary to run the Mode Cardinality (MC) an
 >Horrocks, T., Holden, E.-J., Wedge, D., Wijns, C. (2018), "A nonparametric boundary detection technique applied to 3D inverted surveys of the Kevitsa Ni-Cu-PGE deposit", Geophysics, 83, 1, IM:1–13.
 
 # How to use
-To get started, run _build.bat_.
+To get started, run _build.bat_. Then run the file in build/jar using the command _java -jar build.jar_.
 
 # Usage
 The commands are listed below. The _load_ commands expects a CSV file with columns corresponding to x, y, z, and v(alue). The points must be in a regular grid (corresponding to voxel centres). If the grid is rotated in the x,y-plane, the rotation option can be used.
