@@ -2,7 +2,7 @@
 This repository contains the code neccessary to run the Mode Cardinality (MC) and Spatially-Informed Mode Cardinality (SI-MC) edge detection operators proposed in the journal article:
 >Horrocks, T., Holden, E.-J., Wedge, D., Wijns, C. (2018), "A nonparametric boundary detection technique applied to 3D inverted surveys of the Kevitsa Ni-Cu-PGE deposit", Geophysics, 83, 1, IM:1–13.
 
-# How to use
+# Executing the software
 To get started, run _build.bat_. Then run the file in build/jar using the command _java -jar build.jar_.
 
 # Usage
